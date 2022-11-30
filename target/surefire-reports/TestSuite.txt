@@ -1,0 +1,12 @@
+-------------------------------------------------------------------------------
+Test set: TestSuite
+-------------------------------------------------------------------------------
+Tests run: 15, Failures: 2, Errors: 0, Skipped: 9, Time elapsed: 45.642 sec <<< FAILURE! - in TestSuite
+loginPageGetUrl(com.qa.opencart.test.LoginPageTest)  Time elapsed: 0.372 sec  <<< FAILURE!
+java.lang.AssertionError: expected [true] but found [false]
+	at com.qa.opencart.test.LoginPageTest.loginPageGetUrl(LoginPageTest.java:38)
+
+loginPageTitleTest(com.qa.opencart.test.LoginPageTest)  Time elapsed: 0.307 sec  <<< FAILURE!
+java.lang.AssertionError: expected [Account Login] but found [Register Account]
+	at com.qa.opencart.test.LoginPageTest.loginPageTitleTest(LoginPageTest.java:29)
+

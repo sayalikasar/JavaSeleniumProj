@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite thread-count="1" guice-stage="DEVELOPMENT" verbose="4" name="Failed suite [open cart test suit]" parallel="tests">
+  <listeners>
+    <listener class-name="com.qa.opencart.listners.TestAllureListener"/>
+    <listener class-name="com.qa.opencart.listners.AnnotationTransformer"/>
+  </listeners>
+  <test thread-count="1" verbose="4" name="login page tests(failed)" parallel="tests">
+    <classes>
+      <class name="com.qa.opencart.test.LoginPageTest">
+        <methods>
+          <include name="doLoginTest"/>
+          <include name="loginPageTitleTest"/>
+          <include name="loginPageGetUrl"/>
+          <include name="setup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.qa.opencart.test.LoginPageTest -->
+    </classes>
+  </test> <!-- login page tests(failed) -->
+  <test thread-count="1" verbose="4" name="registration page test(failed)" parallel="tests">
+    <classes>
+      <class name="com.qa.opencart.test.RegPageTest">
+        <methods>
+          <include name="setup"/>
+          <include name="doRegisteredData" invocation-numbers="0 0"/>
+          <include name="regPageSetup"/>
+          <include name="tearDown"/>
+        </methods>
+      </class> <!-- com.qa.opencart.test.RegPageTest -->
+    </classes>
+  </test> <!-- registration page test(failed) -->
+</suite> <!-- Failed suite [open cart test suit] -->

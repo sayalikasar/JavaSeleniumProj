@@ -1,0 +1,163 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testsuite xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="https://maven.apache.org/surefire/maven-surefire-plugin/xsd/surefire-test-report.xsd" name="TestSuite" time="45.642" tests="15" errors="0" skipped="9" failures="2">
+  <properties>
+    <property name="java.runtime.name" value="Java(TM) SE Runtime Environment"/>
+    <property name="sun.boot.library.path" value="C:\Program Files\Java\jdk1.8.0_251\jre\bin"/>
+    <property name="java.vm.version" value="25.251-b08"/>
+    <property name="java.vm.vendor" value="Oracle Corporation"/>
+    <property name="maven.multiModuleProjectDirectory" value="D:\Sayali\IPRU\ECLIPSE_WORKSPACE\FinalProj"/>
+    <property name="java.vendor.url" value="http://java.oracle.com/"/>
+    <property name="path.separator" value=";"/>
+    <property name="guice.disable.misplaced.annotation.check" value="true"/>
+    <property name="java.vm.name" value="Java HotSpot(TM) 64-Bit Server VM"/>
+    <property name="file.encoding.pkg" value="sun.io"/>
+    <property name="user.script" value=""/>
+    <property name="user.country" value="IN"/>
+    <property name="sun.java.launcher" value="SUN_STANDARD"/>
+    <property name="sun.os.patch.level" value=""/>
+    <property name="java.vm.specification.name" value="Java Virtual Machine Specification"/>
+    <property name="user.dir" value="D:\Sayali\IPRU\ECLIPSE_WORKSPACE\FinalProj"/>
+    <property name="java.runtime.version" value="1.8.0_251-b08"/>
+    <property name="java.awt.graphicsenv" value="sun.awt.Win32GraphicsEnvironment"/>
+    <property name="java.endorsed.dirs" value="C:\Program Files\Java\jdk1.8.0_251\jre\lib\endorsed"/>
+    <property name="os.arch" value="amd64"/>
+    <property name="java.io.tmpdir" value="C:\Users\sayalik\AppData\Local\Temp\"/>
+    <property name="line.separator" value="&#10;"/>
+    <property name="java.vm.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.variant" value=""/>
+    <property name="os.name" value="Windows 10"/>
+    <property name="classworlds.conf" value="D:\set ups\apache-maven-3.8.6-bin\apache-maven-3.8.6\bin\m2.conf"/>
+    <property name="sun.jnu.encoding" value="Cp1252"/>
+    <property name="java.library.path" value="C:\Program Files\Java\jdk1.8.0_251\bin;C:\Windows\Sun\Java\bin;C:\Windows\system32;C:\Windows;C:\Program Files (x86)\Common Files\Oracle\Java\javapath;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files\Java\jdk1.8.0_251\bin\;D:\set ups\apache-maven-3.8.6-bin\apache-maven-3.8.6\bin\;C:\Users\sayalik\scoop\shims;C:\Users\sayalik\AppData\Local\Microsoft\WindowsApps;."/>
+    <property name="maven.conf" value="D:\set ups\apache-maven-3.8.6-bin\apache-maven-3.8.6/conf"/>
+    <property name="java.specification.name" value="Java Platform API Specification"/>
+    <property name="java.class.version" value="52.0"/>
+    <property name="sun.management.compiler" value="HotSpot 64-Bit Tiered Compilers"/>
+    <property name="os.version" value="10.0"/>
+    <property name="library.jansi.path" value="D:\set ups\apache-maven-3.8.6-bin\apache-maven-3.8.6\lib\jansi-native"/>
+    <property name="user.home" value="C:\Users\sayalik"/>
+    <property name="user.timezone" value="America/Los_Angeles"/>
+    <property name="java.awt.printerjob" value="sun.awt.windows.WPrinterJob"/>
+    <property name="java.specification.version" value="1.8"/>
+    <property name="file.encoding" value="Cp1252"/>
+    <property name="user.name" value="sayalik"/>
+    <property name="java.class.path" value="D:\set ups\apache-maven-3.8.6-bin\apache-maven-3.8.6\boot\plexus-classworlds-2.6.0.jar"/>
+    <property name="java.vm.specification.version" value="1.8"/>
+    <property name="sun.arch.data.model" value="64"/>
+    <property name="java.home" value="C:\Program Files\Java\jdk1.8.0_251\jre"/>
+    <property name="sun.java.command" value="org.codehaus.plexus.classworlds.launcher.Launcher clean install"/>
+    <property name="java.specification.vendor" value="Oracle Corporation"/>
+    <property name="user.language" value="en"/>
+    <property name="awt.toolkit" value="sun.awt.windows.WToolkit"/>
+    <property name="java.vm.info" value="mixed mode"/>
+    <property name="java.version" value="1.8.0_251"/>
+    <property name="java.ext.dirs" value="C:\Program Files\Java\jdk1.8.0_251\jre\lib\ext;C:\Windows\Sun\Java\lib\ext"/>
+    <property name="sun.boot.class.path" value="C:\Program Files\Java\jdk1.8.0_251\jre\lib\resources.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\rt.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\sunrsasign.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\jsse.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\jce.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\charsets.jar;C:\Program Files\Java\jdk1.8.0_251\jre\lib\jfr.jar;C:\Program Files\Java\jdk1.8.0_251\jre\classes"/>
+    <property name="sun.stderr.encoding" value="cp437"/>
+    <property name="java.vendor" value="Oracle Corporation"/>
+    <property name="maven.home" value="D:\set ups\apache-maven-3.8.6-bin\apache-maven-3.8.6"/>
+    <property name="file.separator" value="\"/>
+    <property name="java.vendor.url.bug" value="http://bugreport.sun.com/bugreport/"/>
+    <property name="sun.cpu.endian" value="little"/>
+    <property name="sun.io.unicode.encoding" value="UnicodeLittle"/>
+    <property name="sun.stdout.encoding" value="cp437"/>
+    <property name="sun.desktop" value="windows"/>
+    <property name="sun.cpu.isalist" value="amd64"/>
+  </properties>
+  <testcase name="doClickOnRegPage" classname="com.qa.opencart.test.LoginPageTest" time="1.141"/>
+  <testcase name="doLoginTest" classname="com.qa.opencart.test.LoginPageTest" time="0">
+    <skipped message="element click intercepted: Element is not clickable at point (691, 767)&#10;  (Session info: chrome=107.0.5304.107)&#10;Build info: version: &apos;4.1.2&apos;, revision: &apos;9a5a329c5a&apos;&#10;System info: host: &apos;LPT-0748&apos;, ip: &apos;192.168.0.103&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_251&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [5b8bc6e386b8f9a79c34512a8238d826, clickElement {id=00695b4b-10cb-46ae-91f7-8c4f26b2d58d}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\sayalik\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:59564}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59564/devtoo..., se:cdpVersion: 107.0.5304.107, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Element: [[ChromeDriver: chrome on WINDOWS (5b8bc6e386b8f9a79c34512a8238d826)] -&gt; xpath: //button[@class=&apos;btn btn-primary&apos;]]&#10;Session ID: 5b8bc6e386b8f9a79c34512a8238d826"/>
+    <system-out><![CDATA[I am in onTestStart method doLoginTest start
+I am in onTestSkipped method doLoginTest skipped
+]]></system-out>
+  </testcase>
+  <testcase name="doLoginTest" classname="com.qa.opencart.test.LoginPageTest" time="1.609"/>
+  <testcase name="loginPageGetUrl" classname="com.qa.opencart.test.LoginPageTest" time="0">
+    <skipped message="expected [true] but found [false]"/>
+    <system-out><![CDATA[I am in onTestStart method loginPageGetUrl start
+I am in onTestSkipped method loginPageGetUrl skipped
+]]></system-out>
+  </testcase>
+  <testcase name="loginPageGetUrl" classname="com.qa.opencart.test.LoginPageTest" time="0">
+    <skipped message="expected [true] but found [false]"/>
+    <system-out><![CDATA[I am in onTestStart method loginPageGetUrl start
+I am in onTestSkipped method loginPageGetUrl skipped
+]]></system-out>
+  </testcase>
+  <testcase name="loginPageGetUrl" classname="com.qa.opencart.test.LoginPageTest" time="0">
+    <skipped message="expected [true] but found [false]"/>
+    <system-out><![CDATA[I am in onTestStart method loginPageGetUrl start
+I am in onTestSkipped method loginPageGetUrl skipped
+]]></system-out>
+  </testcase>
+  <testcase name="loginPageGetUrl" classname="com.qa.opencart.test.LoginPageTest" time="0.372">
+    <failure message="expected [true] but found [false]" type="java.lang.AssertionError">java.lang.AssertionError: expected [true] but found [false]
+	at com.qa.opencart.test.LoginPageTest.loginPageGetUrl(LoginPageTest.java:38)
+</failure>
+    <system-out><![CDATA[I am in onTestStart method loginPageGetUrl start
+I am in onTestFailure method loginPageGetUrl failed
+Screenshot captured for test case:loginPageGetUrl
+]]></system-out>
+  </testcase>
+  <testcase name="loginPageTitleTest" classname="com.qa.opencart.test.LoginPageTest" time="0">
+    <skipped message="expected [Account Login] but found [Register Account]"/>
+    <system-out><![CDATA[I am in onTestStart method loginPageTitleTest start
+login page titleRegister Account
+I am in onTestSkipped method loginPageTitleTest skipped
+]]></system-out>
+  </testcase>
+  <testcase name="loginPageTitleTest" classname="com.qa.opencart.test.LoginPageTest" time="0">
+    <skipped message="expected [Account Login] but found [Register Account]"/>
+    <system-out><![CDATA[I am in onTestStart method loginPageTitleTest start
+login page titleRegister Account
+I am in onTestSkipped method loginPageTitleTest skipped
+]]></system-out>
+  </testcase>
+  <testcase name="loginPageTitleTest" classname="com.qa.opencart.test.LoginPageTest" time="0">
+    <skipped message="expected [Account Login] but found [Register Account]"/>
+    <system-out><![CDATA[I am in onTestStart method loginPageTitleTest start
+login page titleRegister Account
+I am in onTestSkipped method loginPageTitleTest skipped
+]]></system-out>
+  </testcase>
+  <testcase name="loginPageTitleTest" classname="com.qa.opencart.test.LoginPageTest" time="0.307">
+    <failure message="expected [Account Login] but found [Register Account]" type="java.lang.AssertionError">java.lang.AssertionError: expected [Account Login] but found [Register Account]
+	at com.qa.opencart.test.LoginPageTest.loginPageTitleTest(LoginPageTest.java:29)
+</failure>
+    <system-out><![CDATA[I am in onTestStart method loginPageTitleTest start
+login page titleRegister Account
+I am in onTestFailure method loginPageTitleTest failed
+Screenshot captured for test case:loginPageTitleTest
+]]></system-out>
+  </testcase>
+  <testcase name="doRegisteredData" classname="com.qa.opencart.test.RegPageTest" time="0">
+    <skipped message="element click intercepted: Element is not clickable at point (166, 668)&#10;  (Session info: chrome=107.0.5304.107)&#10;Build info: version: &apos;4.1.2&apos;, revision: &apos;9a5a329c5a&apos;&#10;System info: host: &apos;LPT-0748&apos;, ip: &apos;192.168.0.103&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_251&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [3ecebdf11437ea6a7f88063ed9c1969e, clickElement {id=a5a83c63-99ab-4fda-b195-db2086a299a7}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\sayalik\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:59583}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59583/devtoo..., se:cdpVersion: 107.0.5304.107, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Element: [[ChromeDriver: chrome on WINDOWS (3ecebdf11437ea6a7f88063ed9c1969e)] -&gt; xpath: //label[@class=&apos;form-check-label&apos;]/../child::input[@value=1 and @type=&apos;radio&apos;]]&#10;Session ID: 3ecebdf11437ea6a7f88063ed9c1969e"/>
+    <system-out><![CDATA[I am in onFinish method login page tests
+I am in onStart method registration page test
+I am in onTestStart method doRegisteredData start
+I am in onTestSkipped method doRegisteredData skipped
+]]></system-out>
+    <system-err><![CDATA[Starting ChromeDriver 107.0.5304.62 (1eec40d3a5764881c92085aaee66d25075c159aa-refs/branch-heads/5304@{#942}) on port 58037
+Only local connections are allowed.
+Please see https://chromedriver.chromium.org/security-considerations for suggestions on keeping ChromeDriver safe.
+ChromeDriver was started successfully.
+Nov 22, 2022 5:25:58 PM org.openqa.selenium.remote.ProtocolHandshake createSession
+INFO: Detected dialect: W3C
+Nov 22, 2022 5:25:58 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+WARNING: Unable to find an exact match for CDP version 107, so returning the closest version found: a no-op implementation
+Nov 22, 2022 5:25:58 PM org.openqa.selenium.devtools.CdpVersionFinder findNearestMatch
+INFO: Unable to find CDP implementation matching 107.
+Nov 22, 2022 5:25:58 PM org.openqa.selenium.chromium.ChromiumDriver lambda$new$3
+WARNING: Unable to find version of CDP to use for . You may need to include a dependency on a specific version of the CDP using something similar to `org.seleniumhq.selenium:selenium-devtools-v86:4.1.2` where the version ("v86") matches the version of the chromium-based browser you're using and the version number of the artifact is the same as Selenium's.
+]]></system-err>
+  </testcase>
+  <testcase name="doRegisteredData" classname="com.qa.opencart.test.RegPageTest" time="0">
+    <skipped message="element click intercepted: Element is not clickable at point (379, 637)&#10;  (Session info: chrome=107.0.5304.107)&#10;Build info: version: &apos;4.1.2&apos;, revision: &apos;9a5a329c5a&apos;&#10;System info: host: &apos;LPT-0748&apos;, ip: &apos;192.168.0.103&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_251&apos;&#10;Driver info: org.openqa.selenium.chrome.ChromeDriver&#10;Command: [3ecebdf11437ea6a7f88063ed9c1969e, clickElement {id=ea9883e3-3bb2-4f99-9dfb-799e7e37940b}]&#10;Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\sayalik\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:59583}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59583/devtoo..., se:cdpVersion: 107.0.5304.107, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}&#10;Element: [[ChromeDriver: chrome on WINDOWS (3ecebdf11437ea6a7f88063ed9c1969e)] -&gt; css selector: .form-check-input[name=&apos;agree&apos;]]&#10;Session ID: 3ecebdf11437ea6a7f88063ed9c1969e"/>
+    <system-out><![CDATA[I am in onTestStart method doRegisteredData start
+
+I am in onTestSkipped method doRegisteredData skipped
+]]></system-out>
+  </testcase>
+  <testcase name="doRegisteredData" classname="com.qa.opencart.test.RegPageTest" time="2.333"/>
+  <testcase name="getTitle" classname="com.qa.opencart.test.RegPageTest" time="0.123"/>
+</testsuite>

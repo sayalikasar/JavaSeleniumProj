@@ -1,0 +1,747 @@
+<!DOCTYPE html>
+
+<html>
+  <head>
+  <meta charset='utf-8'>
+  <title>TestNG reports</title>
+
+    <link type="text/css" href="testng-reports.css" rel="stylesheet" />
+    <script type="text/javascript" src="jquery-1.7.1.min.js"></script>
+    <script type="text/javascript" src="testng-reports.js"></script>
+    <script type="text/javascript" src="https://www.google.com/jsapi"></script>
+    <script type='text/javascript'>
+      google.load('visualization', '1', {packages:['table']});
+      google.setOnLoadCallback(drawTable);
+      var suiteTableInitFunctions = new Array();
+      var suiteTableData = new Array();
+    </script>
+    <!--
+      <script type="text/javascript" src="jquery-ui/js/jquery-ui-1.8.16.custom.min.js"></script>
+     -->
+  </head>
+
+  <body>
+    <div class="top-banner-root">
+      <span class="top-banner-title-font">Test results</span>
+      <br/>
+      <span class="top-banner-font-1">1 suite, 2 failed tests</span>
+    </div> <!-- top-banner-root -->
+    <div class="navigator-root">
+      <div class="navigator-suite-header">
+        <span>All suites</span>
+        <a href="#" class="collapse-all-link" title="Collapse/expand all the suites">
+          <img class="collapse-all-icon" src="collapseall.gif">
+          </img> <!-- collapse-all-icon -->
+        </a> <!-- collapse-all-link -->
+      </div> <!-- navigator-suite-header -->
+      <div class="suite">
+        <div class="rounded-window">
+          <div class="suite-header light-rounded-window-top">
+            <a href="#" class="navigator-link" panel-name="suite-open_cart_test_suit">
+              <span class="suite-name border-failed">open cart test suit</span>
+            </a> <!-- navigator-link -->
+          </div> <!-- suite-header light-rounded-window-top -->
+          <div class="navigator-suite-content">
+            <div class="suite-section-title">
+              <span>Info</span>
+            </div> <!-- suite-section-title -->
+            <div class="suite-section-content">
+              <ul>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="test-xml-open_cart_test_suit">
+                    <span>D:\Sayali\IPRU\ECLIPSE_WORKSPACE\FinalProj\resources\TestRunner\TestNg_Regression.xml</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="testlist-open_cart_test_suit">
+                    <span class="test-stats">2 tests</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="group-open_cart_test_suit">
+                    <span>0 groups</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="times-open_cart_test_suit">
+                    <span>Times</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="reporter-open_cart_test_suit">
+                    <span>Reporter output</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="ignored-methods-open_cart_test_suit">
+                    <span>Ignored methods</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+                <li>
+                  <a href="#" class="navigator-link " panel-name="chronological-open_cart_test_suit">
+                    <span>Chronological view</span>
+                  </a> <!-- navigator-link  -->
+                </li>
+              </ul>
+            </div> <!-- suite-section-content -->
+            <div class="result-section">
+              <div class="suite-section-title">
+                <span>Results</span>
+              </div> <!-- suite-section-title -->
+              <div class="suite-section-content">
+                <ul>
+                  <li>
+                    <span class="method-stats">15 methods, 2 failed,  9 skipped,  4 passed</span>
+                  </li>
+                  <li>
+                    <span class="method-list-title failed">Failed methods</span>
+                    <span class="show-or-hide-methods failed">
+                      <a href="#" panel-name="suite-open_cart_test_suit" class="hide-methods failed suite-open_cart_test_suit"> (hide)</a> <!-- hide-methods failed suite-open_cart_test_suit -->
+                      <a href="#" panel-name="suite-open_cart_test_suit" class="show-methods failed suite-open_cart_test_suit"> (show)</a> <!-- show-methods failed suite-open_cart_test_suit -->
+                    </span>
+                    <div class="method-list-content failed suite-open_cart_test_suit">
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-open_cart_test_suit" title="com.qa.opencart.test.LoginPageTest" hash-for-method="loginPageGetUrl">loginPageGetUrl</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="failed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-open_cart_test_suit" title="com.qa.opencart.test.LoginPageTest" hash-for-method="loginPageTitleTest">loginPageTitleTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content failed suite-open_cart_test_suit -->
+                  </li>
+                  <li>
+                    <span class="method-list-title skipped">Skipped methods</span>
+                    <span class="show-or-hide-methods skipped">
+                      <a href="#" panel-name="suite-open_cart_test_suit" class="hide-methods skipped suite-open_cart_test_suit"> (hide)</a> <!-- hide-methods skipped suite-open_cart_test_suit -->
+                      <a href="#" panel-name="suite-open_cart_test_suit" class="show-methods skipped suite-open_cart_test_suit"> (show)</a> <!-- show-methods skipped suite-open_cart_test_suit -->
+                    </span>
+                    <div class="method-list-content skipped suite-open_cart_test_suit">
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-open_cart_test_suit" title="com.qa.opencart.test.LoginPageTest" hash-for-method="doLoginTest">doLoginTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-open_cart_test_suit" title="com.qa.opencart.test.RegPageTest" hash-for-method="doRegisteredData(firstname, lastname, email, password, Yes)">doRegisteredData(firstname, lastname, email, password, Yes)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-open_cart_test_suit" title="com.qa.opencart.test.RegPageTest" hash-for-method="doRegisteredData(firstname, lastname, email, password, Yes)">doRegisteredData(firstname, lastname, email, password, Yes)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-open_cart_test_suit" title="com.qa.opencart.test.LoginPageTest" hash-for-method="loginPageGetUrl">loginPageGetUrl</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-open_cart_test_suit" title="com.qa.opencart.test.LoginPageTest" hash-for-method="loginPageGetUrl">loginPageGetUrl</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-open_cart_test_suit" title="com.qa.opencart.test.LoginPageTest" hash-for-method="loginPageGetUrl">loginPageGetUrl</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-open_cart_test_suit" title="com.qa.opencart.test.LoginPageTest" hash-for-method="loginPageTitleTest">loginPageTitleTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-open_cart_test_suit" title="com.qa.opencart.test.LoginPageTest" hash-for-method="loginPageTitleTest">loginPageTitleTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="skipped.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-open_cart_test_suit" title="com.qa.opencart.test.LoginPageTest" hash-for-method="loginPageTitleTest">loginPageTitleTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content skipped suite-open_cart_test_suit -->
+                  </li>
+                  <li>
+                    <span class="method-list-title passed">Passed methods</span>
+                    <span class="show-or-hide-methods passed">
+                      <a href="#" panel-name="suite-open_cart_test_suit" class="hide-methods passed suite-open_cart_test_suit"> (hide)</a> <!-- hide-methods passed suite-open_cart_test_suit -->
+                      <a href="#" panel-name="suite-open_cart_test_suit" class="show-methods passed suite-open_cart_test_suit"> (show)</a> <!-- show-methods passed suite-open_cart_test_suit -->
+                    </span>
+                    <div class="method-list-content passed suite-open_cart_test_suit">
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-open_cart_test_suit" title="com.qa.opencart.test.LoginPageTest" hash-for-method="doClickOnRegPage">doClickOnRegPage</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-open_cart_test_suit" title="com.qa.opencart.test.LoginPageTest" hash-for-method="doLoginTest">doLoginTest</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-open_cart_test_suit" title="com.qa.opencart.test.RegPageTest" hash-for-method="doRegisteredData(firstname, lastname, email, password, Yes)">doRegisteredData(firstname, lastname, email, password, Yes)</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                      <span>
+                        <img width="3%" src="passed.png"/>
+                        <a href="#" class="method navigator-link" panel-name="suite-open_cart_test_suit" title="com.qa.opencart.test.RegPageTest" hash-for-method="getTitle">getTitle</a> <!-- method navigator-link -->
+                      </span>
+                      <br/>
+                    </div> <!-- method-list-content passed suite-open_cart_test_suit -->
+                  </li>
+                </ul>
+              </div> <!-- suite-section-content -->
+            </div> <!-- result-section -->
+          </div> <!-- navigator-suite-content -->
+        </div> <!-- rounded-window -->
+      </div> <!-- suite -->
+    </div> <!-- navigator-root -->
+    <div class="wrapper">
+      <div class="main-panel-root">
+        <div panel-name="suite-open_cart_test_suit" class="panel open_cart_test_suit">
+          <div class="suite-open_cart_test_suit-class-failed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="failed.png"/>
+              <span class="class-name">com.qa.opencart.test.LoginPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginPageGetUrl">
+                  </a> <!-- loginPageGetUrl -->
+                  <span class="method-name">loginPageGetUrl</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at com.qa.opencart.test.LoginPageTest.loginPageGetUrl(LoginPageTest.java:38)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 20 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginPageTitleTest">
+                  </a> <!-- loginPageTitleTest -->
+                  <span class="method-name">loginPageTitleTest</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [Account Login] but found [Register Account]
+	at com.qa.opencart.test.LoginPageTest.loginPageTitleTest(LoginPageTest.java:29)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 22 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-open_cart_test_suit-class-failed -->
+          <div class="suite-open_cart_test_suit-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.qa.opencart.test.LoginPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="doLoginTest">
+                  </a> <!-- doLoginTest -->
+                  <span class="method-name">doLoginTest</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (691, 767)
+  (Session info: chrome=107.0.5304.107)
+Build info: version: &apos;4.1.2&apos;, revision: &apos;9a5a329c5a&apos;
+System info: host: &apos;LPT-0748&apos;, ip: &apos;192.168.0.103&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_251&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [5b8bc6e386b8f9a79c34512a8238d826, clickElement {id=00695b4b-10cb-46ae-91f7-8c4f26b2d58d}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\sayalik\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:59564}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59564/devtoo..., se:cdpVersion: 107.0.5304.107, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (5b8bc6e386b8f9a79c34512a8238d826)] -&gt; xpath: //button[@class=&apos;btn btn-primary&apos;]]
+Session ID: 5b8bc6e386b8f9a79c34512a8238d826
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:558)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+	at com.qa.opencart.pages.ElementUtil.doClick(ElementUtil.java:93)
+	at com.qa.opencart.pages.LoginPage.doLogin(LoginPage.java:45)
+	at com.qa.opencart.test.LoginPageTest.doLoginTest(LoginPageTest.java:46)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 20 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginPageGetUrl">
+                  </a> <!-- loginPageGetUrl -->
+                  <span class="method-name">loginPageGetUrl</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at com.qa.opencart.test.LoginPageTest.loginPageGetUrl(LoginPageTest.java:38)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 20 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginPageGetUrl">
+                  </a> <!-- loginPageGetUrl -->
+                  <span class="method-name">loginPageGetUrl</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at com.qa.opencart.test.LoginPageTest.loginPageGetUrl(LoginPageTest.java:38)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 20 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginPageGetUrl">
+                  </a> <!-- loginPageGetUrl -->
+                  <span class="method-name">loginPageGetUrl</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [true] but found [false]
+	at com.qa.opencart.test.LoginPageTest.loginPageGetUrl(LoginPageTest.java:38)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 20 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginPageTitleTest">
+                  </a> <!-- loginPageTitleTest -->
+                  <span class="method-name">loginPageTitleTest</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [Account Login] but found [Register Account]
+	at com.qa.opencart.test.LoginPageTest.loginPageTitleTest(LoginPageTest.java:29)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 22 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginPageTitleTest">
+                  </a> <!-- loginPageTitleTest -->
+                  <span class="method-name">loginPageTitleTest</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [Account Login] but found [Register Account]
+	at com.qa.opencart.test.LoginPageTest.loginPageTitleTest(LoginPageTest.java:29)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 22 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="loginPageTitleTest">
+                  </a> <!-- loginPageTitleTest -->
+                  <span class="method-name">loginPageTitleTest</span>
+                  <div class="stack-trace">java.lang.AssertionError: expected [Account Login] but found [Register Account]
+	at com.qa.opencart.test.LoginPageTest.loginPageTitleTest(LoginPageTest.java:29)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 22 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-open_cart_test_suit-class-skipped -->
+          <div class="suite-open_cart_test_suit-class-skipped">
+            <div class="main-panel-header rounded-window-top">
+              <img src="skipped.png"/>
+              <span class="class-name">com.qa.opencart.test.RegPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="doRegisteredData(firstname, lastname, email, password, Yes)">
+                  </a> <!-- doRegisteredData(firstname, lastname, email, password, Yes) -->
+                  <span class="method-name">doRegisteredData</span>
+                  <span class="parameters">(firstname, lastname, email, password, Yes)</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (379, 637)
+  (Session info: chrome=107.0.5304.107)
+Build info: version: &apos;4.1.2&apos;, revision: &apos;9a5a329c5a&apos;
+System info: host: &apos;LPT-0748&apos;, ip: &apos;192.168.0.103&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_251&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3ecebdf11437ea6a7f88063ed9c1969e, clickElement {id=ea9883e3-3bb2-4f99-9dfb-799e7e37940b}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\sayalik\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:59583}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59583/devtoo..., se:cdpVersion: 107.0.5304.107, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (3ecebdf11437ea6a7f88063ed9c1969e)] -&gt; css selector: .form-check-input[name=&apos;agree&apos;]]
+Session ID: 3ecebdf11437ea6a7f88063ed9c1969e
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:558)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+	at com.qa.opencart.pages.RegisterPage.registerData(RegisterPage.java:74)
+	at com.qa.opencart.test.RegPageTest.doRegisteredData(RegPageTest.java:50)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 20 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="doRegisteredData(firstname, lastname, email, password, Yes)">
+                  </a> <!-- doRegisteredData(firstname, lastname, email, password, Yes) -->
+                  <span class="method-name">doRegisteredData</span>
+                  <span class="parameters">(firstname, lastname, email, password, Yes)</span>
+                  <div class="stack-trace">org.openqa.selenium.ElementClickInterceptedException: element click intercepted: Element is not clickable at point (166, 668)
+  (Session info: chrome=107.0.5304.107)
+Build info: version: &apos;4.1.2&apos;, revision: &apos;9a5a329c5a&apos;
+System info: host: &apos;LPT-0748&apos;, ip: &apos;192.168.0.103&apos;, os.name: &apos;Windows 10&apos;, os.arch: &apos;amd64&apos;, os.version: &apos;10.0&apos;, java.version: &apos;1.8.0_251&apos;
+Driver info: org.openqa.selenium.chrome.ChromeDriver
+Command: [3ecebdf11437ea6a7f88063ed9c1969e, clickElement {id=a5a83c63-99ab-4fda-b195-db2086a299a7}]
+Capabilities {acceptInsecureCerts: false, browserName: chrome, browserVersion: 107.0.5304.107, chrome: {chromedriverVersion: 107.0.5304.62 (1eec40d3a576..., userDataDir: C:\Users\sayalik\AppData\Lo...}, goog:chromeOptions: {debuggerAddress: localhost:59583}, javascriptEnabled: true, networkConnectionEnabled: false, pageLoadStrategy: normal, platform: WINDOWS, platformName: WINDOWS, proxy: Proxy(), se:cdp: ws://localhost:59583/devtoo..., se:cdpVersion: 107.0.5304.107, setWindowRect: true, strictFileInteractability: false, timeouts: {implicit: 0, pageLoad: 300000, script: 30000}, unhandledPromptBehavior: dismiss and notify, webauthn:extension:credBlob: true, webauthn:extension:largeBlob: true, webauthn:virtualAuthenticators: true}
+Element: [[ChromeDriver: chrome on WINDOWS (3ecebdf11437ea6a7f88063ed9c1969e)] -&gt; xpath: //label[@class=&apos;form-check-label&apos;]/../child::input[@value=1 and @type=&apos;radio&apos;]]
+Session ID: 3ecebdf11437ea6a7f88063ed9c1969e
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.createException(W3CHttpResponseCodec.java:200)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:133)
+	at org.openqa.selenium.remote.codec.w3c.W3CHttpResponseCodec.decode(W3CHttpResponseCodec.java:53)
+	at org.openqa.selenium.remote.HttpCommandExecutor.execute(HttpCommandExecutor.java:184)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.invokeExecute(DriverCommandExecutor.java:167)
+	at org.openqa.selenium.remote.service.DriverCommandExecutor.execute(DriverCommandExecutor.java:142)
+	at org.openqa.selenium.remote.RemoteWebDriver.execute(RemoteWebDriver.java:558)
+	at org.openqa.selenium.remote.RemoteWebElement.execute(RemoteWebElement.java:251)
+	at org.openqa.selenium.remote.RemoteWebElement.click(RemoteWebElement.java:77)
+	at com.qa.opencart.pages.RegisterPage.registerData(RegisterPage.java:59)
+	at com.qa.opencart.test.RegPageTest.doRegisteredData(RegPageTest.java:50)
+	at java.util.concurrent.FutureTask.run(FutureTask.java:266)
+	at java.util.concurrent.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1149)
+	at java.util.concurrent.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:624)
+	at java.lang.Thread.run(Thread.java:748)
+... Removed 20 stack frames
+</div> <!-- stack-trace -->
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-open_cart_test_suit-class-skipped -->
+          <div class="suite-open_cart_test_suit-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.qa.opencart.test.LoginPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="doClickOnRegPage">
+                  </a> <!-- doClickOnRegPage -->
+                  <span class="method-name">doClickOnRegPage</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="doLoginTest">
+                  </a> <!-- doLoginTest -->
+                  <span class="method-name">doLoginTest</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-open_cart_test_suit-class-passed -->
+          <div class="suite-open_cart_test_suit-class-passed">
+            <div class="main-panel-header rounded-window-top">
+              <img src="passed.png"/>
+              <span class="class-name">com.qa.opencart.test.RegPageTest</span>
+            </div> <!-- main-panel-header rounded-window-top -->
+            <div class="main-panel-content rounded-window-bottom">
+              <div class="method">
+                <div class="method-content">
+                  <a name="doRegisteredData(firstname, lastname, email, password, Yes)">
+                  </a> <!-- doRegisteredData(firstname, lastname, email, password, Yes) -->
+                  <span class="method-name">doRegisteredData</span>
+                  <span class="parameters">(firstname, lastname, email, password, Yes)</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+              <div class="method">
+                <div class="method-content">
+                  <a name="getTitle">
+                  </a> <!-- getTitle -->
+                  <span class="method-name">getTitle</span>
+                </div> <!-- method-content -->
+              </div> <!-- method -->
+            </div> <!-- main-panel-content rounded-window-bottom -->
+          </div> <!-- suite-open_cart_test_suit-class-passed -->
+        </div> <!-- panel open_cart_test_suit -->
+        <div panel-name="test-xml-open_cart_test_suit" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">D:\Sayali\IPRU\ECLIPSE_WORKSPACE\FinalProj\resources\TestRunner\TestNg_Regression.xml</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <pre>
+&lt;?xml version=&quot;1.0&quot; encoding=&quot;UTF-8&quot;?&gt;
+&lt;!DOCTYPE suite SYSTEM &quot;http://testng.org/testng-1.0.dtd&quot;&gt;
+&lt;suite thread-count=&quot;1&quot; guice-stage=&quot;DEVELOPMENT&quot; verbose=&quot;0&quot; name=&quot;open cart test suit&quot; parallel=&quot;tests&quot;&gt;
+  &lt;listeners&gt;
+    &lt;listener class-name=&quot;com.qa.opencart.listners.TestAllureListener&quot;/&gt;
+    &lt;listener class-name=&quot;com.qa.opencart.listners.AnnotationTransformer&quot;/&gt;
+  &lt;/listeners&gt;
+  &lt;test thread-count=&quot;1&quot; verbose=&quot;0&quot; name=&quot;login page tests&quot; parallel=&quot;tests&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.qa.opencart.test.LoginPageTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- login page tests --&gt;
+  &lt;test thread-count=&quot;1&quot; verbose=&quot;0&quot; name=&quot;registration page test&quot; parallel=&quot;tests&quot;&gt;
+    &lt;classes&gt;
+      &lt;class name=&quot;com.qa.opencart.test.RegPageTest&quot;/&gt;
+    &lt;/classes&gt;
+  &lt;/test&gt; &lt;!-- registration page test --&gt;
+&lt;/suite&gt; &lt;!-- open cart test suit --&gt;
+            </pre>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="testlist-open_cart_test_suit" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Tests for open cart test suit</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <ul>
+              <li>
+                <span class="test-name">login page tests (1 class)</span>
+              </li>
+              <li>
+                <span class="test-name">registration page test (1 class)</span>
+              </li>
+            </ul>
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="group-open_cart_test_suit" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Groups for open cart test suit</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="times-open_cart_test_suit" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Times for open cart test suit</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="times-div">
+              <script type="text/javascript">
+suiteTableInitFunctions.push('tableData_open_cart_test_suit');
+function tableData_open_cart_test_suit() {
+var data = new google.visualization.DataTable();
+data.addColumn('number', 'Number');
+data.addColumn('string', 'Method');
+data.addColumn('string', 'Class');
+data.addColumn('number', 'Time (ms)');
+data.addRows(15);
+data.setCell(0, 0, 0)
+data.setCell(0, 1, 'doRegisteredData')
+data.setCell(0, 2, 'com.qa.opencart.test.RegPageTest')
+data.setCell(0, 3, 3314);
+data.setCell(1, 0, 1)
+data.setCell(1, 1, 'doRegisteredData')
+data.setCell(1, 2, 'com.qa.opencart.test.RegPageTest')
+data.setCell(1, 3, 2985);
+data.setCell(2, 0, 2)
+data.setCell(2, 1, 'doRegisteredData')
+data.setCell(2, 2, 'com.qa.opencart.test.RegPageTest')
+data.setCell(2, 3, 2305);
+data.setCell(3, 0, 3)
+data.setCell(3, 1, 'doLoginTest')
+data.setCell(3, 2, 'com.qa.opencart.test.LoginPageTest')
+data.setCell(3, 3, 2073);
+data.setCell(4, 0, 4)
+data.setCell(4, 1, 'doLoginTest')
+data.setCell(4, 2, 'com.qa.opencart.test.LoginPageTest')
+data.setCell(4, 3, 1596);
+data.setCell(5, 0, 5)
+data.setCell(5, 1, 'doClickOnRegPage')
+data.setCell(5, 2, 'com.qa.opencart.test.LoginPageTest')
+data.setCell(5, 3, 1155);
+data.setCell(6, 0, 6)
+data.setCell(6, 1, 'getTitle')
+data.setCell(6, 2, 'com.qa.opencart.test.RegPageTest')
+data.setCell(6, 3, 133);
+data.setCell(7, 0, 7)
+data.setCell(7, 1, 'loginPageGetUrl')
+data.setCell(7, 2, 'com.qa.opencart.test.LoginPageTest')
+data.setCell(7, 3, 83);
+data.setCell(8, 0, 8)
+data.setCell(8, 1, 'loginPageGetUrl')
+data.setCell(8, 2, 'com.qa.opencart.test.LoginPageTest')
+data.setCell(8, 3, 50);
+data.setCell(9, 0, 9)
+data.setCell(9, 1, 'loginPageTitleTest')
+data.setCell(9, 2, 'com.qa.opencart.test.LoginPageTest')
+data.setCell(9, 3, 35);
+data.setCell(10, 0, 10)
+data.setCell(10, 1, 'loginPageGetUrl')
+data.setCell(10, 2, 'com.qa.opencart.test.LoginPageTest')
+data.setCell(10, 3, 27);
+data.setCell(11, 0, 11)
+data.setCell(11, 1, 'loginPageGetUrl')
+data.setCell(11, 2, 'com.qa.opencart.test.LoginPageTest')
+data.setCell(11, 3, 26);
+data.setCell(12, 0, 12)
+data.setCell(12, 1, 'loginPageTitleTest')
+data.setCell(12, 2, 'com.qa.opencart.test.LoginPageTest')
+data.setCell(12, 3, 19);
+data.setCell(13, 0, 13)
+data.setCell(13, 1, 'loginPageTitleTest')
+data.setCell(13, 2, 'com.qa.opencart.test.LoginPageTest')
+data.setCell(13, 3, 16);
+data.setCell(14, 0, 14)
+data.setCell(14, 1, 'loginPageTitleTest')
+data.setCell(14, 2, 'com.qa.opencart.test.LoginPageTest')
+data.setCell(14, 3, 15);
+window.suiteTableData['open_cart_test_suit']= { tableData: data, tableDiv: 'times-div-open_cart_test_suit'}
+return data;
+}
+              </script>
+              <span class="suite-total-time">Total running time: 13 seconds</span>
+              <div id="times-div-open_cart_test_suit">
+              </div> <!-- times-div-open_cart_test_suit -->
+            </div> <!-- times-div -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="reporter-open_cart_test_suit" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Reporter output for open cart test suit</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="ignored-methods-open_cart_test_suit" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">0 ignored methods</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+        <div panel-name="chronological-open_cart_test_suit" class="panel">
+          <div class="main-panel-header rounded-window-top">
+            <span class="header-content">Methods in chronological order</span>
+          </div> <!-- main-panel-header rounded-window-top -->
+          <div class="main-panel-content rounded-window-bottom">
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.opencart.test.LoginPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setup</span>
+                <span class="method-start">0 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="test-method">
+                <span class="method-name">doClickOnRegPage</span>
+                <span class="method-start">13938 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">doLoginTest</span>
+                <span class="method-start">15503 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">doLoginTest</span>
+                <span class="method-start">17620 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">loginPageGetUrl</span>
+                <span class="method-start">19245 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">loginPageGetUrl</span>
+                <span class="method-start">19337 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">loginPageGetUrl</span>
+                <span class="method-start">19396 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">loginPageGetUrl</span>
+                <span class="method-start">19439 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">loginPageTitleTest</span>
+                <span class="method-start">19837 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">loginPageTitleTest</span>
+                <span class="method-start">19882 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">loginPageTitleTest</span>
+                <span class="method-start">19918 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <img src="failed.png">
+                </img>
+                <span class="method-name">loginPageTitleTest</span>
+                <span class="method-start">19942 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">20272 ms</span>
+              </div> <!-- configuration-test after -->
+            </div> <!-- chronological-class -->
+            <div class="chronological-class">
+              <div class="chronological-class-name">com.qa.opencart.test.RegPageTest</div> <!-- chronological-class-name -->
+              <div class="configuration-test before">
+                <span class="method-name">setup</span>
+                <span class="method-start">20412 ms</span>
+              </div> <!-- configuration-test before -->
+              <div class="configuration-class before">
+                <span class="method-name">regPageSetup</span>
+                <span class="method-start">28126 ms</span>
+              </div> <!-- configuration-class before -->
+              <div class="test-method">
+                <span class="method-name">doRegisteredData(firstname, lastname, email, password, Yes)</span>
+                <span class="method-start">31424 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">doRegisteredData(firstname, lastname, email, password, Yes)</span>
+                <span class="method-start">34744 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">doRegisteredData(firstname, lastname, email, password, Yes)</span>
+                <span class="method-start">37741 ms</span>
+              </div> <!-- test-method -->
+              <div class="test-method">
+                <span class="method-name">getTitle</span>
+                <span class="method-start">40131 ms</span>
+              </div> <!-- test-method -->
+              <div class="configuration-test after">
+                <span class="method-name">tearDown</span>
+                <span class="method-start">40299 ms</span>
+              </div> <!-- configuration-test after -->
+          </div> <!-- main-panel-content rounded-window-bottom -->
+        </div> <!-- panel -->
+      </div> <!-- main-panel-root -->
+    </div> <!-- wrapper -->
+  </body>
+</html>
